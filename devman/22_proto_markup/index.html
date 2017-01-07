@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -81,14 +81,14 @@
   </div>
 </div>
 
-<p><a name="proposal-anchor"></a></p>
+<p id="proposal-anchor"></p>
 <div class="container">
   <div class="row">
     <div class="col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8 container-proposal">
       <p class="proposal-title">
         Вам позвонят лучшие поставщики Новосибирска
       </p>
-      <form class="form-horizontal proposal-form" role="form">
+      <form class="form-horizontal proposal-form">
         <p class="proposal-form-title">Я ищу</p>
         <div class="form-group row checkbox-fbs-blocks">
           <div class="col-sm-offset-2 col-sm-10">
@@ -96,7 +96,7 @@
               <label>
                 <input type="checkbox">ЖБИ <span class="checkbox-help-block">
                   ( фундаментальные блоки ФБС, плиты перекрытий ПК, перемычки)
-                </span></input>
+                </span>
               </label>
             </div>
           </div>
@@ -105,12 +105,12 @@
           <div class="col-sm-offset-2 col-sm-10">
             <div class="checkbox">
               <label>
-                <input type="checkbox">Кирпич / Газобетон / Брус</input>
+                <input type="checkbox">Кирпич / Газобетон / Брус
               </label>
             </div>
             <div class="checkbox">
               <label>
-                <input type="checkbox">Бетон / Раствор</input>
+                <input type="checkbox">Бетон / Раствор
               </label>
             </div>
           </div>
@@ -119,183 +119,184 @@
           <div class="col-sm-offset-2 col-sm-10">
             в:
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-              Новосибирск и область<span class="caret"></a>
+              Новосибирск и область<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Москва</a></li>
+              <li><a href="#">Питер</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputDescription" class="col-sm-2 control-label proposal-form-label">Описание</label>
+          <div class="col-sm-10">
+            <textarea class="form-control" id="inputDescription"></textarea>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="inputPhone" class="col-sm-2 control-label proposal-form-label">Телефон</label>
+          <div class="col-sm-4">
+            <input type="email" class="form-control" id="inputPhone">
+          </div>
+          <label for="inputName" class="col-sm-2 control-label proposal-form-label">Имя</label>
+          <div class="col-sm-4">
+            <input type="password" class="form-control" id="inputName">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="container-proposal-btn">
+            <button type="submit" class="btn btn-lg btn-round-lg btn-primary btn-outline proposal-btn">Опубликовать заявку</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="container-proposals col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+      <p class="proposals-title">Свежие заявки</p>
+      <div class="proposal-header">
+        <div class="proposal-section">
+          <p>раздел:&nbsp;&nbsp;</p>
+          <div class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              Все<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">section 1</a></li>
+                <li><a href="#">section 1</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="proposal-region">
+            <p class="">регион:&nbsp;&nbsp;</p>
+            <div class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Новосибирск и область<span class="caret"></span>
+              </a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#">Москва</a></li>
                 <li><a href="#">Питер</a></li>
               </ul>
             </div>
           </div>
-          <div class="form-group">
-            <label for="inputDescription" class="col-sm-2 control-label proposal-form-label">Описание</label>
-            <div class="col-sm-10">
-              <textarea class="form-control" id="inputDescription"></textarea>
-            </div>
-          </div>
-          <div class="form-group row">
-            <label for="inputPhone" class="col-sm-2 control-label proposal-form-label">Телефон</label>
-            <div class="col-sm-4">
-              <input type="email" class="form-control" id="inputPhone">
-            </div>
-            <label for="inputName" class="col-sm-2 control-label proposal-form-label">Имя</label>
-            <div class="col-sm-4">
-              <input type="password" class="form-control" id="inputName">
-            </div>
-          </div>
-          <div class="form-group">
-            <div class="container-proposal-btn">
-              <button type="submit" class="btn btn-lg btn-round-lg btn-primary btn-outline proposal-btn">Опубликовать заявку</button>
-            </div>
-          </div>
-        </form>
+        </div>
+        <hr>
+        
+        <div class="proposal">
+  <p class="proposal-time pull-left">вчера, в 21:30</p>
+  <p class="proposal-to-bookmarks pull-right">
+    <a href="#"><i class="fa fa-star" aria-hidden="true"></i> в закладки</a>
+  </p>
+  <p class="proposal-text">60шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой.</p>
+  <p>Алексей</p>
+  <div class="container-proposal-phone-views">
+    <a href="#" class="btn btn-primary btn-outline">Показать телефон</a>
+    <p>12 просмотров</p>
+  </div>
+  <hr>
+</div>
+        
+        <div class="proposal">
+  <p class="proposal-time pull-left">вчера, в 21:30</p>
+  <p class="proposal-to-bookmarks pull-right">
+    <a href="#"><i class="fa fa-star" aria-hidden="true"></i> в закладки</a>
+  </p>
+  <p class="proposal-text">60шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой.</p>
+  <p>Алексей</p>
+  <div class="container-proposal-phone-views">
+    <a href="#" class="btn btn-primary btn-outline">Показать телефон</a>
+    <p>12 просмотров</p>
+  </div>
+  <hr>
+</div>
+        
+        <div class="proposal">
+  <p class="proposal-time pull-left">вчера, в 21:30</p>
+  <p class="proposal-to-bookmarks pull-right">
+    <a href="#"><i class="fa fa-star" aria-hidden="true"></i> в закладки</a>
+  </p>
+  <p class="proposal-text">60шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой.</p>
+  <p>Алексей</p>
+  <div class="container-proposal-phone-views">
+    <a href="#" class="btn btn-primary btn-outline">Показать телефон</a>
+    <p>12 просмотров</p>
+  </div>
+  <hr>
+</div>
+        
+        <div class="proposal">
+  <p class="proposal-time pull-left">вчера, в 21:30</p>
+  <p class="proposal-to-bookmarks pull-right">
+    <a href="#"><i class="fa fa-star" aria-hidden="true"></i> в закладки</a>
+  </p>
+  <p class="proposal-text">60шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой.</p>
+  <p>Алексей</p>
+  <div class="container-proposal-phone-views">
+    <a href="#" class="btn btn-primary btn-outline">Показать телефон</a>
+    <p>12 просмотров</p>
+  </div>
+  <hr>
+</div>
+        
+        <div class="proposal-all">
+          <a href="proposals.html" class="btn btn-lg btn-round-lg btn-primary btn-outline proposal-btn">Посмотреть все заявки</a>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="container-proposals col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
-        <p class="proposals-title">Свежие заявки</p>
-        <div class="proposal-header">
-          <div class="proposal-section">
-            <p>раздел:&nbsp;&nbsp;</p>
-            <div class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Все<span class="caret"></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">section 1</a></li>
-                  <li><a href="#">section 1</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="proposal-region">
-              <p class="">регион:&nbsp;&nbsp;</p>
-              <div class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                  Новосибирск и область<span class="caret"></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Москва</a></li>
-                    <li><a href="#">Питер</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <hr>
-            
-            <div class="proposal">
-  <p class="proposal-time pull-left">вчера, в 21:30</p>
-  <p class="proposal-to-bookmarks pull-right">
-    <a href="#"><i class="fa fa-star" aria-hidden="true"></i> в закладки</a>
-  </p>
-  <p class="proposal-text">60шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой.</p>
-  <p>Алексей</p>
-  <div class="container-proposal-phone-views">
-    <a href="#" class="btn btn-primary btn-outline">Показать телефон</a>
-    <p>12 просмотров</p>
-  </div>
-  <hr>
-</div>
-            
-            <div class="proposal">
-  <p class="proposal-time pull-left">вчера, в 21:30</p>
-  <p class="proposal-to-bookmarks pull-right">
-    <a href="#"><i class="fa fa-star" aria-hidden="true"></i> в закладки</a>
-  </p>
-  <p class="proposal-text">60шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой.</p>
-  <p>Алексей</p>
-  <div class="container-proposal-phone-views">
-    <a href="#" class="btn btn-primary btn-outline">Показать телефон</a>
-    <p>12 просмотров</p>
-  </div>
-  <hr>
-</div>
-            
-            <div class="proposal">
-  <p class="proposal-time pull-left">вчера, в 21:30</p>
-  <p class="proposal-to-bookmarks pull-right">
-    <a href="#"><i class="fa fa-star" aria-hidden="true"></i> в закладки</a>
-  </p>
-  <p class="proposal-text">60шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой.</p>
-  <p>Алексей</p>
-  <div class="container-proposal-phone-views">
-    <a href="#" class="btn btn-primary btn-outline">Показать телефон</a>
-    <p>12 просмотров</p>
-  </div>
-  <hr>
-</div>
-            
-            <div class="proposal">
-  <p class="proposal-time pull-left">вчера, в 21:30</p>
-  <p class="proposal-to-bookmarks pull-right">
-    <a href="#"><i class="fa fa-star" aria-hidden="true"></i> в закладки</a>
-  </p>
-  <p class="proposal-text">60шт. ПК от 72-15 до ПК 21-15, Криводановка, с доставкой.</p>
-  <p>Алексей</p>
-  <div class="container-proposal-phone-views">
-    <a href="#" class="btn btn-primary btn-outline">Показать телефон</a>
-    <p>12 просмотров</p>
-  </div>
-  <hr>
-</div>
-            
-            <div class="proposal-all">
-              <a href="proposals.html" class="btn btn-lg btn-round-lg btn-primary btn-outline proposal-btn">Посмотреть все заявки</a>
-            </div>
-          </div>
-        </div>
+  <div class="container-reviews">
+    <div class="reviews-block-align reviews-give-feedback"></div>
+    <i class="fa fa-3x fa-chevron-left reviews-arrow-left" aria-hidden="true"></i>
+    <div class="reviews-carousel col-xs-7 col-sm-6 col-md-5 col-lg-4">
+      
+      <div>
+        <div class="reviews-avatar"></div>
+        <p class="reviews-author">
+          Кирилл, 29 лет, г. Барабинск
+        </p>
+        <p class="reviews-text">
+          Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
+          Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
+          Бла-бла, мне помогло, все супер!
+        </p>
       </div>
+      
+      <div>
+        <div class="reviews-avatar"></div>
+        <p class="reviews-author">
+          Кирилл, 29 лет, г. Барабинск
+        </p>
+        <p class="reviews-text">
+          Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
+          Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
+          Бла-бла, мне помогло, все супер!
+        </p>
+      </div>
+      
+      <div>
+        <div class="reviews-avatar"></div>
+        <p class="reviews-author">
+          Кирилл, 29 лет, г. Барабинск
+        </p>
+        <p class="reviews-text">
+          Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
+          Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
+          Бла-бла, мне помогло, все супер!
+        </p>
+      </div>
+      
+    </div>
+    <i class="fa fa-3x fa-chevron-left reviews-arrow-left-bottom" aria-hidden="true"></i>
+    <i class="fa fa-3x fa-chevron-right reviews-arrow-right" aria-hidden="true"></i>
+    <a class="reviews-give-feedback btn btn-default" href="#">Оставить отзыв</a>
+  </div>
+  <div class="container-give-feedback-bottom">
+    <a class="reviews-give-feedback-bottom btn btn-default" href="#">Оставить отзыв</a>
+  </div>
 
-      <div class="container-reviews">
-        <div class="reviews-block-align reviews-give-feedback"></div>
-        <i class="fa fa-3x fa-chevron-left reviews-arrow-left" aria-hidden="true"></i>
-        <div class="reviews-carousel col-xs-7 col-sm-6 col-md-5 col-lg-4">
-          
-          <div>
-            <div class="reviews-avatar"></div>
-            <p class="reviews-author">
-              Кирилл, 29 лет, г. Барабинск
-            </p>
-            <p class="reviews-text">
-              Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
-              Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
-              Бла-бла, мне помогло, все супер!
-            </p>
-          </div>
-          
-          <div>
-            <div class="reviews-avatar"></div>
-            <p class="reviews-author">
-              Кирилл, 29 лет, г. Барабинск
-            </p>
-            <p class="reviews-text">
-              Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
-              Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
-              Бла-бла, мне помогло, все супер!
-            </p>
-          </div>
-          
-          <div>
-            <div class="reviews-avatar"></div>
-            <p class="reviews-author">
-              Кирилл, 29 лет, г. Барабинск
-            </p>
-            <p class="reviews-text">
-              Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
-              Бла-бла, мне помогло, все супер! Бла-бла, мне помогло, все супер!
-              Бла-бла, мне помогло, все супер!
-            </p>
-          </div>
-          
-        </div>
-        <i class="fa fa-3x fa-chevron-left reviews-arrow-left-bottom" aria-hidden="true"></i>
-        <i class="fa fa-3x fa-chevron-right reviews-arrow-right" aria-hidden="true"></i>
-        <a class="reviews-give-feedback btn btn-default" href="#">Оставить отзыв</a>
-      </div>
-      <div class="container-give-feedback-bottom">
-        <a class="reviews-give-feedback-bottom btn btn-default" href="#">Оставить отзыв</a>
-      </div>
-
-      <div class="footer">
+  <div class="footer">
   <div class="container">
     <h2>Вы поставщик?</h2>
     <p class="footer-info col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-4">
@@ -309,7 +310,7 @@
       Возможно стоит вынести его на отдельную страницу.
     </p>
     <div class="container-footer-form col-sm-offset-1 col-sm-8 col-md-5 col-lg-4">
-      <form class="form-horizontal provider-form" role="form">
+      <form class="form-horizontal provider-form">
         <div class="form-group">
           <label for="inputOrganization" class="col-sm-3 control-label provider-form-label">Организация</label>
           <div class="col-sm-9">
@@ -342,7 +343,7 @@
   </div>
 </div>
 
-      
+  
 
     
     
