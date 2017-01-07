@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+Личный кабинет
+</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="slick-carousel/slick.css" rel="stylesheet" type="text/css"/>
+    <link href="slick-carousel/slick-theme.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet">
+
+    
+<link href="css/profile.css" rel="stylesheet">
+
+
+    <script src="js/jquery-2.2.4.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <p class="navbar-text">Регион:</p>
+          <ul class="nav navbar-nav dropdown">
+            <li class="dropdown">
+              <a class="navbar-dropdown-region dropdown-toggle" data-toggle="dropdown" href="#">
+                Новосибирск и область<span class="caret"></span></a>
+              <ul class="dropdown-menu" id="notify-region-dropdown">
+                <li><a href="#">Москва</a></li>
+                <li><a href="#">Питер</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="profile.html">Леонид Федорович</a></li>
+            <li><a href="#">Выход</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container-notify-region" id="notify-region">
+      <div class="notify-region">
+        <i class="fa fa-times fa-lg pull-right notify-region-close" aria-hidden="true"></i>
+        <p>Ваш регион - Новосибирск и область</p>
+        <p>Угадали?</p>
+        <button class="btn btn-primary btn-outline" id="btn-notify-region-yes">Да</button>
+        <button class="btn btn-primary btn-outline" id="btn-notify-region-no">Нет</button>
+      </div>
+    </div>
+
+    
+<div class="navigation-links">
+  <div class="logo">
+  <a href="index.html">
+    <i class="fa fa-5x fa-home" aria-hidden="true"></i>
+  </a>
+</div>
+  <a href="index.html">Главная</a>
+  <i class="navigation-chevron">
+    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+  </i>
+  <a href="#" class="inactive-link">Личный кабинет</a>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="profile-title col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
+      <h1 class="">Личный кабинет</h1>
+      <a href="proposals.html" class=""><h4>Перейти к заявкам</h4></a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="container-settings  col-xs-12 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-1 col-lg-10">
+    <div class="settings-navigation col-xs-12 col-sm-4 col-md-4 col-lg-3">
+      <ul>
+        <li><a href="#" class="settings-link">Моя организация</a></li>
+        <li><a href="#" class="settings-link">Смена пароля</a></li>
+        <li><a href="#" class="settings-link">Моя рассылка</a></li>
+      </ul>
+    </div>
+    <div class="settings col-xs-12 col-sm-8 col-md-8 col-lg-9">
+      <div class="settings-organization">
+        <p>organization</p>
+      </div>
+      <div class="settings-password">
+        <p>password</p>
+      </div>
+      <div class="settings-subscribes">
+        <p>subscribes</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="slick-carousel/slick.min.js"></script>
+  </body>
+</html>

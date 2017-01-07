@@ -1,0 +1,92 @@
+.company {
+  border: 3px solid #444;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.company-avatar {
+  float: left;
+  margin-top: -10px;
+  width: 70px;
+  height: 70px;
+  border: 2px solid #555;
+  border-radius: 15px;
+}
+
+.company-name {
+  margin: -10px 0 0 120px;
+  font-weight: bold;
+}
+
+.company-info {
+  margin: 25px 0 0 35px;
+  padding-bottom: 10px;
+}
+
+.company-info>p {
+  margin-bottom: 4px;
+}
+
+.company-text {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.btn-send-proposal {
+  margin-top: 25px;
+}
+
+.link-send-proposal {
+  margin-top: 15px;
+  padding-left: 0;
+  font-size: 1.1em;
+}
+
+.company-header {
+  padding-bottom: 20px;
+}
+
+.link-all-companies {
+  margin-top: 50px;
+  padding-left: 0;
+}
+
+@media (max-width: 450px) {
+  .navigation-links {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .navigation-chevron {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .category {
+    padding: 15px 0 0 0;
+  }
+}
+
+@media (max-width: 700px) {
+}
+
+@media (max-width: 767px) {
+  .categories {
+    justify-content: center;
+  }
+  .logo {
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 678px) and (max-width: 991px) {
+  .btn-send-proposal {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-send-proposal {
+    margin-left: 0px;
+  }
+}
