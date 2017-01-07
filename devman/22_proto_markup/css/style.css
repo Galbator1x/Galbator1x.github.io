@@ -95,11 +95,6 @@ div.container-pagination {
   background-color: #e7451d;
 }
 
-/*DEGUB!!! FIXME*/
-.container-notify-region {
-  display: none;
-}
-
 .notify-region {
   z-index: 1;
   overflow: visible;
